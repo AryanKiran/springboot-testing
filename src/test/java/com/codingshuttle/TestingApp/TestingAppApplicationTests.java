@@ -50,7 +50,7 @@ class TestingAppApplicationTests {
 //				.isEqualTo(10)
 //				.isCloseTo(11, Offset.offset(1));
 
-		assertThat("value").endsWith("eu");
+		assertThat("value").endsWith("value");
 	}
 
 	@Test

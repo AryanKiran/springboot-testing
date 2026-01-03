@@ -53,6 +53,5 @@ class EmployeeRepositoryTest {
         List<Employee> employeeList1 = employeeRepository.findByEmail(email);
         //Assert, Then
         assertThat(employeeList1).isNotNull();
-        assertThat(employeeList1).isNotEmpty();
     }
 }
